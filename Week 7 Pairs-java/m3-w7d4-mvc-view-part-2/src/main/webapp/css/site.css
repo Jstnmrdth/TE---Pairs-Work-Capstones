@@ -1,0 +1,165 @@
+body {
+	width: 100%;
+	background-color: #212121;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+}
+
+body, header, nav {
+	margin: 0px;
+}
+
+header {
+	background-color: #0099CC;
+	color: white;
+	padding: 10px 10px;
+}
+
+nav {
+	background-color: #8DC63F;
+	margin-bottom: 20px;
+	padding: 5px;
+	height: 50px;
+}
+
+nav ul {
+	float: left;
+}
+
+nav li {
+	list-style-type: none;
+	color: white;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	float: left;
+}
+
+nav li a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+}
+
+section {
+	clear: both;
+	display: block;
+	width: 80%;
+	margin: 20px auto;
+	vertical-align: top;
+	text-align: center;
+	min-height: 450px;
+	background-color: #FFF;
+	border-radius: 7px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	margin: 0 20px;
+}
+
+.content {
+	margin: 10px;
+	background-color: #EFF7E0;
+	position: relative;
+}
+
+.subcontent {
+	margin: 8px;
+}
+
+.subcontent a, td a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+.subcontent a:hover, td a:hover {
+	color: #0099CC;	
+	cursor: pointer;
+}
+
+.bottom {
+	margin: 8px;
+	position: absolute;
+	bottom: 0;
+}
+
+.photo {
+	max-width: 100%;
+}
+
+.star {
+	max-width: 33%;
+	float: left;
+}
+
+.subcontent h3 {
+	font-size: 1em;
+	text-align: left;
+	margin-top: 0;
+	padding-bottom: 30px;
+}
+
+.bottom p {
+	font-size: smaller;
+	float: right;
+	margin: 0;
+}
+
+table {
+    margin-right: 70px;
+    margin-left: 30px;
+}
+
+table .photo{
+	max-width: 50%;
+}
+
+table .star{
+	max-width: 50%;
+	float: none;
+}
+
+tr:nth-child(even) td{
+	background-color: #D3D3D3;
+}
+
+.detail-view .detail-top {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.detail-view img {
+    max-width: 100%;
+}
+
+.detail-view {
+    text-align: left;
+    padding: 10px;
+}
+
+.detail-view .right {
+    padding-left: 10px;
+}
+
+.detail-view h3 {
+    margin: 0;
+}
+
+.detail-view p {
+    margin-top: 0;
+}
+
+.detail-view h4 {
+    margin-bottom: 0;
+}
+
+.detail-view hr {
+	color: #9A9A9A;
+}
