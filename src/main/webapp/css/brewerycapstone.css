@@ -1,0 +1,303 @@
+
+body {
+	padding-top: 80px;
+	background-color: #1F1F1F;
+	font-family: sans-serif;
+	margin: 0;
+/* 	overflow: hidden; */
+}
+.user-dashboard{
+	color: #e6e6e6;
+	font-size: 30px;
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+	text-shadow: 1px 0 #737373,0 0px #737373,1px 0 #737373,0 0px #737373;
+}
+.lead-center{
+	color: #e6e6e6;
+	font-size: 26px;
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+	text-shadow: 1px 0 #737373,0 0px #737373,1px 0 #737373,0 0px #737373;
+}
+
+.navbar navbar-inverse {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	overflow: hidden;
+	color: #e6e6e6;
+}
+
+.nav navbar-nav navbar-right ul {
+	width: 25%;
+}
+
+.table-bg {
+	background-color: white;
+	padding: 2em;
+	border-radius: 25px;
+}
+.new-user-header{
+	color: #e6e6e6;
+	font-size: 30px;
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+}
+.form-group{
+	color: #e6e6e6;
+	font-size: 15px;
+	font-family: 'Work Sans', sans-serif;
+	text-align: left;
+}
+.form-type{
+	padding-top: 50px;
+}
+.new-user-btn{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.review-btn{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.login-btn{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.jumbotron {
+	min-height: auto;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: <c:url value="/reviews/img/homepage/homepage.jpg/>;
+}
+
+.dashboard-buttons button {
+	min-width: 140px;
+}
+
+.founded {
+	font-size: 20px;
+	text-align: center;
+}
+.brewery-description{
+	text-align: center;
+}
+.breweryBeersList{
+	text-align: center;
+}
+#breweryBeers{
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#brewery-details {
+	background-color: rgba(255, 255, 255, 0.85);
+	width: 75%;
+	padding-bottom: 30px;
+	border-radius: 25px;
+}
+
+.brewery-text {
+	text-align: center;
+}
+
+.brewery-container {
+	margin-top: 1rem;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.center {
+	text-align: center;
+	color: #e6e6e6
+}
+
+.homePage {
+	padding: 0px 30px;
+}
+
+.breweryPage {
+	padding: 0px 15px;
+}
+.brewery{
+	color: #ffffff;
+}
+.homepage img {
+	display: inline-block;
+	width: auto;
+}
+
+.brewery img {
+	display: inline-block;
+	width: 100%;
+}
+#title-text{
+	color: #e6e6e6;
+	font-size: 30px;
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+	text-shadow: 1px 0 #737373,0 0px #737373,1px 0 #737373,0 0px #737373;
+}
+#title-text-homepage{
+	color: #e6e6e6;
+	font-size: 30px;
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+	text-shadow: 1px 0 #737373,0 0px #737373,1px 0 #737373,0 0px #737373;
+}
+#featured{
+	color: #e6e6e6;
+	font-size: 24px;
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+	text-shadow: 1px 0 #737373,0 0px #737373,1px 0 #737373,0 0px #737373;
+	max-height: 200px;
+}
+.img-responsive img-rounded{
+	max-height:300px:
+}
+/* h2	{ */
+/* 	text-align: center; */
+/* } */
+
+h2 a {
+	color: black;
+}
+
+h2 a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+h3 {
+	color: black;
+	font-size: 22px;
+	font-family: "Arial";
+	text-align: center;
+}
+h3 a{
+	color: #e6e6e6;
+	font-size: 22px;
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+}
+
+.btn-beerDetail {
+	background-color: #606060;
+	color: #fff;
+	width: 15em;
+}
+
+#homepage div {
+	float: left;
+	word-wrap: normal;
+}
+
+.fullPage {
+	width: 100%;
+}
+
+ul {
+	padding-left: 25px;
+}
+
+li {
+	padding: 10px;
+}
+
+li a {
+	color: ##3D4747;
+	text-decoration: none;
+	list-style: none;
+}
+
+li a:hover {
+	text-decoration: underline;
+}
+
+.text-div {
+	display: inline-block;
+	width: 500px;
+	vertical-align: top;
+}
+
+#map {
+	height: 100%;
+	width: 100%;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 126.47%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.hover10 img {
+	-webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover10:hover img {
+	-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+}
+.center{
+	color: black;
+}
+
+#footer{
+	color: #9d9d9d
+}
+.sexy_line{ 
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#F0F0F0));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
